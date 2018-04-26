@@ -1,0 +1,24 @@
+$bgClr: #ff9d06;
+$rdlGrdntClrStart: #ffd300;
+$rdlGrdntClrEnd: #ff9d06;
+
+.RegisterSection {
+
+	&--background {
+		background: $bgClr;
+		width: 100%;
+		height: 504px;
+	}
+
+	&-radialGradient {
+		display: flex;
+		justify-content: center;
+		position: relative;
+
+		&--gradientItem {
+			width: 50%;
+			height: 504px;
+			background: radial-gradient($rdlGrdntClrStart, $rdlGrdntClrEnd);
+		}
+	}
+}

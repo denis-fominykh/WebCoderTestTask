@@ -1,1 +1,40 @@
+.Header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .Header-logo--logoPosition {
+    margin: 15px 0 9px 0; }
 
+.RegisterSection--background {
+  background: #ff9d06;
+  width: 100%;
+  height: 504px; }
+
+.RegisterSection-radialGradient {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative; }
+  .RegisterSection-radialGradient--gradientItem {
+    width: 50%;
+    height: 504px;
+    background: radial-gradient(#ffd300, #ff9d06); }
+
+.RegisterForm--formSize {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  width: 960px;
+  height: 466px;
+  background: #f8f8f8;
+  margin: 20px 0 18px 0; }

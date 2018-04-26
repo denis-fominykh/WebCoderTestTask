@@ -1,0 +1,12 @@
+.RegisterForm {
+
+	&--formSize {
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		width: 960px;
+		height: 466px;
+		background: #f8f8f8;
+		margin: 20px 0 18px 0;
+	}
+}
