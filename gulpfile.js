@@ -7,6 +7,10 @@ var autoprefixer = require('gulp-autoprefixer');
 gulp.task('less', function () {
 	gulp.src('./src/styles/**/style.less')
 			.pipe(less())
+			.pipe(autoprefixer({
+				browsers: ['last 2 versions'],
+				cascade: false
+			}))
 			.pipe(gulp.dest('./dist/css/'));
 });
 
@@ -29,4 +33,5 @@ gulp.task('less:watch', function () {
 //Sass files change
 gulp.task('sass:watch', function () {
 	gulp.watch('./src/styles/**/style.scss', ['sass']);
+	console.log('seen');
 });
