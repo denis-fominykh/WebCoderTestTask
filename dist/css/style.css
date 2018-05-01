@@ -79,20 +79,21 @@
 .Slider-nav {
   width: 100%;
   height: 11px;
-  bottom: 12%;
+  bottom: 30px;
   position: absolute;
   text-align: center;
   z-index: 99; }
 
 .Slider-dots {
   top: -5px;
-  width: 18px;
-  height: 18px;
+  width: 10px;
+  height: 10px;
   margin: 0 4px;
   position: relative;
   border-radius: 50%;
   display: inline-block;
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.4); }
 
 .Slider #i1:checked ~ #first,
 .Slider #i2:checked ~ #second,
@@ -104,7 +105,8 @@
 .Slider #i2:checked ~ .Slider-nav #dot2,
 .Slider #i3:checked ~ .Slider-nav #dot3,
 .Slider #i4:checked ~ .Slider-nav #dot4 {
-  background: radial-gradient(#ffd300, #ff9d06); }
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff8c1d), to(#ffab04));
+  background: linear-gradient(to top, #ff8c1d, #ffab04); }
 
 .InfoForm--infoSize {
   width: 50%;
