@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&subset=cyrillic-ext");
 .Header-logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,3 +112,120 @@
 .InfoForm--infoSize {
   width: 50%;
   height: 100%; }
+
+.InfoForm-searchType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.InfoForm-radioContainer--radioFirstPosition {
+  margin: 35px 0 0 69px; }
+
+.InfoForm-radioContainer--radioSecondPosition {
+  margin: 35px 0 0 15px; }
+
+.InfoForm-searchTypeIcon--searchIcon {
+  width: 15px;
+  height: 15px;
+  margin: 43px 0 0 13px; }
+
+.Text-formHeading {
+  font-family: 'Source Sans Pro', sans-serif; }
+  .Text-formHeading--headingSize {
+    font-size: 44px;
+    margin: 28px 0 0 22px;
+    background: -webkit-linear-gradient(#eee, #ff800c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.Text-formText--formFirstTextSize {
+  font-size: 18px;
+  color: #666666;
+  margin: 40px 0 0 24px; }
+
+.Text-formText--formSecondTextSize {
+  font-size: 18px;
+  color: #666666;
+  margin: 40px 0 0 10px; }
+
+.RadioButton-radioInput {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 7px; }
+
+.RadioButton-radioIconFemale {
+  position: relative;
+  padding: 0 0 0 46px;
+  cursor: pointer; }
+  .RadioButton-radioIconFemale:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 45px;
+    height: 35px;
+    border: 1px solid #947024;
+    border-radius: 30px 0 0 30px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#e7e7e7), to(#FFF));
+    background: linear-gradient(to top, #e7e7e7, #FFF); }
+  .RadioButton-radioIconFemale:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    width: 45px;
+    height: 35px;
+    border-radius: 30px 0 0 30px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#ffad03), to(#f98a1b));
+    background: linear-gradient(to top, #ffad03, #f98a1b);
+    -webkit-box-shadow: inset 2px 3px 0px rgba(180, 97, 22, 0.4);
+    box-shadow: inset 2px 3px 0px rgba(180, 97, 22, 0.4);
+    opacity: 0;
+    -webkit-transition: .2s;
+    transition: .2s; }
+
+.RadioButton-radioIconMale {
+  position: relative;
+  padding: 0 0 0 46px;
+  cursor: pointer; }
+  .RadioButton-radioIconMale:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 45px;
+    height: 35px;
+    border: 1px solid #947024;
+    border-radius: 0 30px 30px 0;
+    background: -webkit-gradient(linear, left bottom, left top, from(#e7e7e7), to(#FFF));
+    background: linear-gradient(to top, #e7e7e7, #FFF); }
+  .RadioButton-radioIconMale:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    width: 45px;
+    height: 35px;
+    border-radius: 0 30px 30px 0;
+    background: -webkit-gradient(linear, left bottom, left top, from(#ffad03), to(#f98a1b));
+    background: linear-gradient(to top, #ffad03, #f98a1b);
+    -webkit-box-shadow: inset 2px 3px 0px rgba(180, 97, 22, 0.4);
+    box-shadow: inset 2px 3px 0px rgba(180, 97, 22, 0.4);
+    opacity: 0;
+    -webkit-transition: .2s;
+    transition: .2s; }
+
+.RadioButton-radioInput:checked + .RadioButton-radioIconFemale:after {
+  opacity: 1; }
+
+.RadioButton-radioInput:checked + .RadioButton-radioIconMale:after {
+  opacity: 1; }
+
+.RadioButton-radioInput:focus + .RadioButton-radioIconFemale:before {
+  -webkit-box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.7);
+  box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.7); }
+
+.RadioButton-radioInput:focus + .RadioButton-radioIconMale:before {
+  -webkit-box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.7);
+  box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.7); }

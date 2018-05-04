@@ -4,4 +4,28 @@
 		width: 50%;
 		height: 100%;
 	}
+
+	&-searchType {
+		display: flex;
+	}
+
+	&-radioContainer {
+
+		&--radioFirstPosition {
+			margin: 35px 0 0 69px;
+		}
+
+		&--radioSecondPosition {
+			margin: 35px 0 0 15px;
+		}
+	}
+
+	&-searchTypeIcon {
+
+		&--searchIcon{
+			width: 15px;
+			height: 15px;
+			margin: 43px 0 0 13px;
+		}
+	}
 }
