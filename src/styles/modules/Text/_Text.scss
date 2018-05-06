@@ -28,4 +28,25 @@
 			margin: 40px 0 0 10px;
 		}
 	}
+
+	&-roundPictureHiddenText {
+		font-family: 'Source Sans Pro', sans-serif;
+
+		&--roundPictureHiddenTextSize{
+			font-size: 31px;
+			color: #4e4e4e;
+			margin-bottom: 34px;
+		}
+	}
+
+	&-roundPictureText {
+		font-family: 'Source Sans Pro', sans-serif;
+
+		&--roundPictureTextSize {
+			font-size: 14px;
+			line-height: 20px;
+			color: #4e4e4e;
+			text-align: justify;
+		}
+	}
 }

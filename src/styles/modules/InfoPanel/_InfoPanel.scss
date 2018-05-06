@@ -1,0 +1,12 @@
+.InfoPanel {
+
+	&--infoPanelPosition {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 40px;
+	}
+
+	&--infoPanelSize {
+		width: 960px;
+	}
+}

@@ -1,0 +1,14 @@
+.RoundPictureBlock {
+
+	&--roundPictureBlockPosition {
+		margin: 47px 10px 0 0;
+		width: 50%;
+	}
+
+	&-roundPicture {
+		float: left;
+		shape-outside: circle(50%);
+		clip-path: circle(50%);
+		margin: 0 15px 0 0;
+	}
+}
