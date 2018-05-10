@@ -129,7 +129,7 @@
   width: 50%;
   height: 100%; }
 
-.InfoForm-searchType {
+.InfoForm-searchType, .InfoForm-nameType {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -145,6 +145,15 @@
   height: 15px;
   margin: 43px 0 0 13px; }
 
+.InfoForm-nameForm--nameFormSize {
+  height: 36px;
+  width: 318px;
+  margin: 25px 0 0 55px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #eeabab;
+  border-radius: 20px; }
+
 .Text-formHeading {
   font-family: 'Source Sans Pro', sans-serif; }
   .Text-formHeading--headingSize {
@@ -154,15 +163,20 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
-.Text-formText--formFirstTextSize {
+.Text-formText--formSexText {
   font-size: 18px;
   color: #666666;
   margin: 40px 0 0 24px; }
 
-.Text-formText--formSecondTextSize {
+.Text-formText--formSearchSexText {
   font-size: 18px;
   color: #666666;
   margin: 40px 0 0 10px; }
+
+.Text-formText--formNameText {
+  font-size: 18px;
+  color: #666666;
+  margin: 36px 0 0 24px; }
 
 .Text-roundPictureHiddenText {
   font-family: 'Source Sans Pro', sans-serif; }

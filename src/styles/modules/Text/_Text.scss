@@ -16,17 +16,24 @@
 
 	&-formText {
 
-		&--formFirstTextSize {
+		&--formSexText {
 			font-size: 18px;
 			color: #666666;
 			margin: 40px 0 0 24px;
 		}
 
-		&--formSecondTextSize {
+		&--formSearchSexText {
 			font-size: 18px;
 			color: #666666;
 			margin: 40px 0 0 10px;
 		}
+
+		&--formNameText {
+			font-size: 18px;
+			color: #666666;
+			margin: 36px 0 0 24px;
+		}
+
 	}
 
 	&-roundPictureHiddenText {
