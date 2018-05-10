@@ -9,6 +9,19 @@
   .Header-logo--logoPosition {
     margin: 15px 0 9px 0; }
 
+.Footer--footerPosition {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 80px;
+  height: 542px; }
+
+.Footer-footerHorizontal--horizontalPosition {
+  border: none;
+  color: #cfcfcf;
+  background-color: #cfcfcf;
+  height: 1px;
+  margin: 50px 0 21px 0; }
+
 .RegisterSection--background {
   background: #ff9d06;
   width: 100%;
@@ -41,7 +54,7 @@
   margin: 20px 0 18px 0;
   border-radius: 3px; }
 
-.Slider--sliderSize {
+.Slider--sliderFormSize {
   position: relative;
   width: 50%;
   height: 100%;
@@ -109,6 +122,9 @@
   background: -webkit-gradient(linear, left bottom, left top, from(#ff8c1d), to(#ffab04));
   background: linear-gradient(to top, #ff8c1d, #ffab04); }
 
+.Slider-userImgBlock--userImgBlockPosition {
+  width: 70px; }
+
 .InfoForm--infoSize {
   width: 50%;
   height: 100%; }
@@ -162,6 +178,46 @@
     line-height: 20px;
     color: #4e4e4e;
     text-align: justify; }
+
+.Text-usersListHiddenText {
+  font-family: 'Source Sans Pro', sans-serif; }
+  .Text-usersListHiddenText--usersListHiddenTextSize {
+    font-size: 31px;
+    color: #4e4e4e;
+    margin-bottom: 34px; }
+
+.Text-footerHiddenText {
+  font-family: 'Source Sans Pro', sans-serif; }
+  .Text-footerHiddenText--footerHiddenTextSize {
+    font-size: 31px;
+    color: #4e4e4e;
+    margin-bottom: 24px; }
+
+.Text-footerText {
+  font-family: 'Source Sans Pro', sans-serif; }
+  .Text-footerText--footerTextBlockPosition {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 36px;
+    column-gap: 36px; }
+  .Text-footerText--footerTextSize {
+    font-size: 14px;
+    color: #4e4e4e;
+    line-height: 20px; }
+  .Text-footerText--footerTextMainSize {
+    font-size: 14px;
+    line-height: 20px;
+    border-left: 3px solid #ffc28c;
+    color: #ffc28c;
+    padding-left: 16px; }
+  .Text-footerText--footerTextAnchor {
+    font-size: 14px;
+    color: #ffc28c; }
+  .Text-footerText--footerTextQuote {
+    font-size: 14px;
+    line-height: 20px;
+    color: #9a9a9a;
+    font-style: italic; }
 
 .RadioButton-radioInput {
   position: absolute;
@@ -251,11 +307,13 @@
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  margin-bottom: 40px; }
+  justify-content: center; }
 
 .InfoPanel--infoPanelSize {
-  width: 960px; }
+  width: 960px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .RoundPictureBlock--roundPictureBlockPosition {
   margin: 47px 10px 0 0;
@@ -269,4 +327,5 @@
   margin: 0 15px 0 0; }
 
 .UsersListTable--usersListTablePosition {
-  width: 50%; }
+  width: 50%;
+  margin: 47px 10px 0 0; }

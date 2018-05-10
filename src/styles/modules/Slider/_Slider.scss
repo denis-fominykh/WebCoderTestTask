@@ -1,6 +1,6 @@
 .Slider {
 
-	&--sliderSize {
+	&--sliderFormSize {
 		position: relative;
 		width: 50%;
 		height: 100%;
@@ -81,5 +81,12 @@
 	#i3:checked ~ .Slider-nav #dot3,
 	#i4:checked ~ .Slider-nav #dot4 {
 		background: linear-gradient(to top, #ff8c1d, #ffab04);
+	}
+
+	&-userImgBlock {
+
+		&--userImgBlockPosition {
+			width: 70px;
+		}
 	}
 }

@@ -49,4 +49,59 @@
 			text-align: justify;
 		}
 	}
+
+	&-usersListHiddenText {
+		font-family: 'Source Sans Pro', sans-serif;
+
+		&--usersListHiddenTextSize {
+			font-size: 31px;
+			color: #4e4e4e;
+			margin-bottom: 34px;
+		}
+	}
+
+	&-footerHiddenText {
+		font-family: 'Source Sans Pro', sans-serif;
+
+		&--footerHiddenTextSize{
+			font-size: 31px;
+			color: #4e4e4e;
+			margin-bottom: 24px;
+		}
+	}
+
+	&-footerText {
+		font-family: 'Source Sans Pro', sans-serif;
+
+		&--footerTextBlockPosition {
+			column-count: 3;
+			column-gap: 36px;
+		}
+
+		&--footerTextSize {
+			font-size: 14px;
+			color: #4e4e4e;
+			line-height: 20px;
+		}
+
+		&--footerTextMainSize {
+			font-size: 14px;
+			line-height: 20px;
+			border-left: 3px solid #ffc28c;
+			color: #ffc28c;
+			padding-left: 16px;
+		}
+
+		&--footerTextAnchor {
+			font-size: 14px;
+			color: #ffc28c;
+		}
+
+		&--footerTextQuote {
+			font-size: 14px;
+			line-height: 20px;
+			color: #9a9a9a;
+			font-style: italic;
+		}
+	}
 }
